@@ -1,0 +1,125 @@
+body{
+   font-family:"comic-sans";
+   background-color: lightgrey;
+ 
+   }
+   
+  .poste{
+    height:350px;
+    width: 300px;
+  }
+   
+   .cover{
+     height:600px;
+      background-image:url(software/fondo.jpg);
+      background-size: cover;
+      background-position: center;
+     background-color:black;
+     color:black;
+   }
+   .cover2{
+    height:800px;
+
+    background-image:url(software/luz.jpg);
+    background-size: cover;
+    background-position: center;
+   background-color:white;
+   color:white;
+   }
+
+   .cover-small{
+    height:180px;
+    background-blend-mode:normal;
+    }
+
+    .ediagua{
+      height:300px;
+      background-blend-mode:normal;
+      }
+   
+   .card{
+     border: 0 !important;
+     box-shadow: 0 4px 6px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+     
+   }
+
+   .card-title{
+    min-height:2.5rem;
+    }
+    .card-text{
+    min-height:8rem;
+    }
+    .responsive-iframe{
+      position:relative;
+      padding-top:56.25%;
+    }     
+      .responsive-iframe iframe{
+      position:absolute;
+      top:0%;
+      left:0%;
+      width:100%;
+      height:100%
+      }
+
+
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: lato;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 50px;
+        
+    }
+    
+    .slider-frame {
+      width: 1000px;
+        height: auto;
+      margin:50px auto 0;
+      overflow: hidden;
+     /** background-size: cover;
+      background-position: center;
+    **/}
+    
+    .slider-frame ul {
+      display: flex;
+      padding: 0;
+      width: 400%;
+      
+      animation: slide 20s infinite alternate ease-in-out;
+    }
+    
+    .slider-frame li {
+      width: 100%;
+      list-style: none;
+    }
+    
+    .slider-frame img {
+      width: 100%;
+    }
+    
+    @keyframes slide {
+      0% {margin-left: 0;}
+      20% {margin-left: 0;}
+      
+      25% {margin-left: -100%;}
+      45% {margin-left: -100%;}
+      
+      50% {margin-left: -200%;}
+      70% {margin-left: -200%;}
+      
+      75% {margin-left: -300%;}
+      100% {margin-left: -300%;}
+    }
+
+    .avatar{
+      width: 120px;
+      height: 120px;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+    }
