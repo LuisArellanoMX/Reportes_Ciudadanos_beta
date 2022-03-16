@@ -26,6 +26,15 @@ body{
    background-color:white;
    color:white;
    }
+   .coverC{
+    height:600px;
+
+    background-image:url(software/cliente.jpg);
+    background-size: cover;
+    background-position: center;
+   background-color:black;
+   color:black;
+   }
 
    .cover-small{
     height:180px;
@@ -123,3 +132,110 @@ body{
       background-position: center;
       margin: 0 auto;
     }
+
+    .sac_dashboard h1#gral {
+      background: #00b6c3;
+      padding: 30px 0 !important;
+  }
+  #sac .wrapper {
+    width: 928px !important;
+    padding-top: 0 !important;
+}
+#sac h1 {
+  margin-top: 0 !important;
+  padding-bottom: 25px;
+}
+.sac_dashboard .reportes {
+  background-color: #00b6c3 !important;
+}
+.sac_dashboard h1 {
+  font: normal 2.5em 'brandon_grotesquebold';
+  margin-bottom: 0 !important;
+  color: #fff;
+}
+
+#gralBox h1 {
+  text-transform: uppercase;
+  color: #303030;
+  border-bottom: #de2020 solid 1px;
+}
+
+#gralBox h1, #gralBox h2 {
+  padding: 0 25px;
+  margin: 25px 0;
+}
+#sac h1 {
+  margin-top: 0 !important;
+  padding-bottom: 25px;
+}
+.tac {
+  text-align: center;
+}
+
+
+
+
+
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #00b6c3;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color:#00b6c3;
+	font-size: 18px;
+}
+
+h2 span {
+	color:#303030;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #31B1E5;
+	color: white;
+}
+
+.btn__reset {
+	background-color: #EDA135;
+}
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+
+.btn__reset:hover{
+	background-color: #FA9535;
+}
